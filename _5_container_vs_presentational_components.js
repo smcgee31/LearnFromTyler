@@ -25,6 +25,11 @@ var PromptContainer = React.createClass({
 			username: ''
 		});
 
+		if (this.props.routeParams.playerOne) {
+			// if the Params is truthy... go to /battle
+		} else {
+			// go to /playerTwo
+		}
 
 	},
 	render: function () {
